@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='en_US'/>
+<fallback useFallback='true'/>
+<step action='navigateTo' value='"https://app-zanorth-001-engage-residential-qa.azurewebsites.net/login"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Find your new home"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='heading5(&quot;fs-18 mb-4&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='heading5(&quot;fs-18 mb-4&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='heading5(&quot;Find your new home&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&apos;//*[@class=&quot;mb-4 fs-18&quot;]&apos;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&apos;//*[text()=&quot;Find your new home&quot;]&apos;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&apos;//div[1]/div/main/div/div/div/div/div[2]/div[1]/h5&apos;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&quot;id(&apos;formContent-wide&apos;)/div[@class=&apos;row g-5&apos;]/div[@class=&apos;col-12 col-md-6 border-end-sm-none border-end-md-block px-2 px-md-5 text-center login-left&apos;]/h5[@class=&apos;mb-4 fs-18&apos;]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='heading5(0, _in(div(&quot;border-end-md-block border-end-sm-none col-12 col-md-6 login-left px-2 px-md-5 text-center&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='heading5(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='submit(&quot;btn btn-outline-light lh-lg w-100&quot;)' selected='true'/>
+   <accessor type='click' value='submit(&quot;Explore units&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;btn btn-outline-light lh-lg w-100&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[1]/div/main/div/div/div/div/div[2]/div[1]/form/button&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;formContent-wide&apos;)/div[@class=&apos;row g-5&apos;]/div[@class=&apos;col-12 col-md-6 border-end-sm-none border-end-md-block px-2 px-md-5 text-center login-left&apos;]/form[1]/button[@class=&apos;btn btn-outline-light lh-lg w-100&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='submit(0, _in(form(&quot;Explore units&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;btn btn-dark btn-sm cb-enable ms-0 ms-md-2 mt-3 mt-md-0 ps-2 text-nowrap&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;I understand&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;btn btn-dark ps-2 btn-sm mt-3 mt-md-0 ms-0 ms-md-2 cb-enable text-nowrap&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[text()=&quot;I understand&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[3]/div/div/div[2]/button&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;cookie-bar&apos;)/div[@class=&apos;d-md-flex align-items-center&apos;]/div[2]/button[@class=&apos;btn btn-dark ps-2 btn-sm mt-3 mt-md-0 ms-0 ms-md-2 cb-enable text-nowrap&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;I understand&quot;)))' selected='false'/>
+   <accessor type='click' value='button(1)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='submit(&quot;btn btn-outline-light lh-lg w-100&quot;)' selected='true'/>
+   <accessor type='click' value='byXPath(&apos;//*[@name=&quot;submit&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='submit(&quot;submit&quot;)' selected='false'/>
+   <accessor type='click' value='submit(&quot;Next&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;btn btn-outline-light lh-lg w-100&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[text()=&quot;Next &quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[2]/div/main/div/form/div/div/main/div/div/div/div[3]/div/button&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;formContent-wide&apos;)/div[@class=&apos;row justify-content-center&apos;]/div[@class=&apos;col-8 col-lg-3 col-md-4 text-center&apos;]/button[@class=&apos;btn btn-outline-light lh-lg w-100&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='submit(0, _in(div(&quot;col-8 col-lg-3 col-md-4 text-center&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(0, _in(div(&quot;Next[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='byXPath(&apos;//*[@id=&quot;DisplayUnitsbtn&quot;]&apos;)' selected='true'/>
+   <accessor type='click' value='submit(&quot;btn btn-primary w-100&quot;)' selected='false'/>
+   <accessor type='click' value='submit(&quot;DisplayUnitsbtn&quot;)' selected='false'/>
+   <accessor type='click' value='submit(&quot;submit[2]&quot;)' selected='false'/>
+   <accessor type='click' value='submit(&quot;6225&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;w-100 btn btn-primary&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[2]/div/main/div/div/div[2]/div/div[2]/div/form/button&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;/html[1]/body[@class=&apos;page-backdrop&apos;]/div[@class=&apos;container-fluid&apos;]/div[@class=&apos;row&apos;]/main[@class=&apos;ms-sm-auto col-lg-12 px-md-3 mobile-footer-padding&apos;]/div[@class=&apos;pt-3 pb-0 pb-md-3&apos;]/div[@class=&apos;row g-3&apos;]/div[@class=&apos;col-md-6 col-xl-4 col-xxl-3&apos;]/div[@class=&apos;card shadow-sm h-100&apos;]/div[2]/div[@class=&apos;p-3&apos;]/form[1]/button[@id=&apos;DisplayUnitsbtn&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='submit(2)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='submit(&quot;apply-for-unit-btn btn btn-primary w-100&quot;)' selected='true'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;apply-for-unit-btn w-100 btn btn-primary&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[2]/div/main/div/div/div[2]/div[1]/main/div/div/div[2]/div/div[1]/div/div[2]/div/button[2]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;row-6225&apos;)/div[@class=&apos;col-md-6 col-xl-4 col-xxl-3&apos;]/div[@class=&apos;card shadow-sm&apos;]/div[@class=&apos;p-3&apos;]/div[@class=&apos;d-flex gap-2&apos;]/button[@class=&apos;apply-for-unit-btn w-100 btn btn-primary&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='submit(5)' selected='false'/>
+</dialect>
+</step>
+<step action='setSelected' value='"12 Months ($2,000.00 per month)"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@id=&quot;leaseTerm&quot;]&apos;)' selected='true'/>
+   <accessor type='setSelected' value='select(&quot;form-select&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(&quot;leaseTerm&quot;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@class=&quot;form-select&quot;]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//div[2]/div/main/div/div/div[2]/div[6]/div/div/div/div[2]/div[2]/div[2]/select&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&quot;id(&apos;leaseTerm&apos;)&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(0, _in(div(&quot;col-12 col-md-6 mb-3[1]&quot;)))' selected='false'/>
+   <accessor type='setSelected' value='select(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='byXPath(&apos;//*[@id=&quot;btnStartApplication&quot;]&apos;)' selected='true'/>
+   <accessor type='click' value='button(&quot;btn btn-primary pe-3 ps-3&quot;)' selected='false'/>
+   <accessor type='click' value='button(&quot;btnStartApplication&quot;)' selected='false'/>
+   <accessor type='click' value='button(&quot;533[2]&quot;)' selected='false'/>
+   <accessor type='click' value='button(&quot;Start Application&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;btn btn-primary ps-3 pe-3&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[2]/div/main/div/div/div[2]/div[6]/div/div/div/div[3]/button&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;btnStartApplication&apos;)&quot;)' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;modal-footer&quot;)))' selected='false'/>
+   <accessor type='click' value='button(0, _in(div(&quot;Start Application&quot;)))' selected='false'/>
+   <accessor type='click' value='button(25)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"Lead"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;firstName&quot;]&apos;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;form-control&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@name=&quot;FirstName&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;firstName&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;FirstName&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@class=&quot;form-control&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//div[2]/div/main/div/div[1]/div[1]/div/form/div[2]/div[1]/input&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&quot;id(&apos;firstName&apos;)&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;col-lg-6 col-xl-4&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"Lease"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;lastName&quot;]&apos;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;form-control[1]&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@name=&quot;LastName&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;lastName&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;LastName&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//div[2]/div/main/div/div[1]/div[1]/div/form/div[2]/div[2]/input&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&quot;id(&apos;lastName&apos;)&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0, _in(div(&quot;col-lg-6 col-xl-4[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='textbox(1)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='6000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='include' value='"REPOSITORY/QA/War Machines/2. QA/Prospect_Generate__Username.js"' selected='true'/>
+   <accessor type='include' value='' selected='false'/>
+</dialect>
+</step>
+<step action='store' value='GenerateUserName()' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='GenerateUserName' selected='true'/>
+</dialect>
+</step>
+<step action='setValue' value='GenerateUserName' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;email&quot;]&apos;)' selected='true'/>
+   <accessor type='setValue' value='emailbox(&quot;form-control&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@name=&quot;Email&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='emailbox(&quot;email&quot;)' selected='false'/>
+   <accessor type='setValue' value='emailbox(&quot;Email&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//div[2]/div/main/div/div[1]/div[1]/div/form/div[2]/div[3]/input&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&quot;id(&apos;email&apos;)&quot;)' selected='false'/>
+   <accessor type='setValue' value='emailbox(0, _in(div(&quot;col-lg-6 col-xl-4[2]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='emailbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"2365656666"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;contactNumber&quot;]&apos;)' selected='true'/>
+   <accessor type='setValue' value='telephonebox(&quot;form-control&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@name=&quot;ContactNumber&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='telephonebox(&quot;contactNumber&quot;)' selected='false'/>
+   <accessor type='setValue' value='telephonebox(&quot;ContactNumber&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//div[2]/div/main/div/div[1]/div[1]/div/form/div[2]/div[4]/div[1]/input&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&quot;id(&apos;contactNumber&apos;)&quot;)' selected='false'/>
+   <accessor type='setValue' value='telephonebox(0, _in(div(&quot;iti iti--allow-dropdown iti--separate-dial-code w-100&quot;)))' selected='false'/>
+   <accessor type='setValue' value='telephonebox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"357,8"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='div(&quot;col-lg-6 col-xl-4[3]&quot;)' selected='true'/>
+   <accessor type='clickXY' value='byXPath(&apos;//div[2]/div/main/div/div[1]/div[1]/div/form/div[2]/div[4]&apos;)' selected='false'/>
+   <accessor type='clickXY' value='div(6, _in(div(&quot;g-3 row&quot;)))' selected='false'/>
+   <accessor type='clickXY' value='div(13)' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"364,7"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='div(&quot;col-lg-6 col-xl-4[3]&quot;)' selected='true'/>
+   <accessor type='clickXY' value='byXPath(&apos;//div[2]/div/main/div/div[1]/div[1]/div/form/div[2]/div[4]&apos;)' selected='false'/>
+   <accessor type='clickXY' value='div(6, _in(div(&quot;g-3 row&quot;)))' selected='false'/>
+   <accessor type='clickXY' value='div(13)' selected='false'/>
+</dialect>
+</step>
+<step action='setSelected' value='"Mobile"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@id=&quot;contactNumberType&quot;]&apos;)' selected='true'/>
+   <accessor type='setSelected' value='select(&quot;form-select&quot;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@name=&quot;ContactNumberType&quot;]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='select(&quot;contactNumberType&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(&quot;ContactNumberType&quot;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@class=&quot;form-select&quot;]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//div[2]/div/main/div/div[1]/div[1]/div/form/div[2]/div[5]/select&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&quot;id(&apos;contactNumberType&apos;)&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(0, _in(div(&quot;col-lg-6 col-xl-4[4]&quot;)))' selected='false'/>
+   <accessor type='setSelected' value='select(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='byXPath(&apos;//*[@id=&quot;termsAndConditions&quot;]&apos;)' selected='true'/>
+   <accessor type='click' value='checkbox(&quot;form-check-input&quot;)' selected='false'/>
+   <accessor type='click' value='checkbox(&quot;termsAndConditions&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;form-check-input&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[2]/div/main/div/div[1]/div[1]/div/form/div[2]/div[6]/div[1]/input&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;termsAndConditions&apos;)&quot;)' selected='false'/>
+   <accessor type='click' value='checkbox(0, _in(div(&quot;form-check mb-3 privacy&quot;)))' selected='false'/>
+   <accessor type='click' value='checkbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='5000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='clickXY' value='"12,7"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='div(&quot;recaptcha-checkbox-border&quot;)' selected='true'/>
+   <accessor type='clickXY' value='byXPath(&apos;//*[@class=&quot;recaptcha-checkbox-border&quot;]&apos;)' selected='false'/>
+   <accessor type='clickXY' value='byXPath(&apos;//div[2]/div[3]/div[1]/div/div/span/div[1]&apos;)' selected='false'/>
+   <accessor type='clickXY' value='byXPath(&quot;id(&apos;recaptcha-anchor&apos;)/div[@class=&apos;recaptcha-checkbox-border&apos;]&quot;)' selected='false'/>
+   <accessor type='clickXY' value='div(0, _in(span(&quot;recaptcha-anchor&quot;)))' selected='false'/>
+   <accessor type='clickXY' value='div(0, _in(span(&quot;goog-inline-block rc-anchor-checkbox recaptcha-checkbox recaptcha-checkbox-active recaptcha-checkbox-clearOutline recaptcha-checkbox-focused recaptcha-checkbox-hover recaptcha-checkbox-unchecked&quot;)))' selected='false'/>
+   <accessor type='clickXY' value='div(6)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='byXPath(&apos;//*[@id=&quot;signUpBtn&quot;]&apos;)' selected='true'/>
+   <accessor type='click' value='submit(&quot;btn btn-dark text-nowrap w-100&quot;)' selected='false'/>
+   <accessor type='click' value='submit(&quot;signUpBtn&quot;)' selected='false'/>
+   <accessor type='click' value='submit(&quot;Signup&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;btn btn-dark w-100 text-nowrap&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[2]/div/main/div/div[1]/div[1]/div/form/div[3]/div[3]/button&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;signUpBtn&apos;)&quot;)' selected='false'/>
+   <accessor type='click' value='submit(0, _in(div(&quot;col-12 col-md-auto mb-2 mb-md-0 order-1 order-md-2&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(0, _in(div(&quot;Signup&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(0)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Thank you"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='heading3(&quot;Thank you&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='heading3(&quot;Thank you&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&apos;//*[text()=&quot;Thank you&quot;]&apos;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&apos;//div[3]/div/main/div/div/div[1]/div/h3&apos;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&quot;/html[1]/body[@class=&apos;page-backdrop&apos;]/div[@class=&apos;container-fluid&apos;]/div[@class=&apos;row&apos;]/main[@class=&apos;ms-sm-auto col-lg-12 px-0 px-md-3 mobile-footer-padding&apos;]/div[@class=&apos;pt-0 pb-0 pt-md-3 pb-md-3&apos;]/div[@class=&apos;row g- g-0 g-md-3&apos;]/div[@class=&apos;col-lg-6 col-xl-8&apos;]/div[@class=&apos;bg-white rounded-3  p-3 &apos;]/h3[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='heading3(0, _in(div(&quot;bg-white p-3 rounded-3&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='heading3(0)' selected='false'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://accounts.google.com/v3/signin/identifier?dsh=S705502825%3A1665752034824867&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;ifkv=AQDHYWpGa1yxmaI6Yiv5kkjNaealL1HK_AbcorFZ1v4j24hgZeWbslzY4HfxVFmJMNnaORMzvwK4Aw"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setValue' value='"leadlease.prospect@gmail.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;identifierId&quot;]&apos;)' selected='true'/>
+   <accessor type='setValue' value='emailbox(&quot;whsOnd zHQkBf&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@name=&quot;identifier&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='emailbox(&quot;identifierId&quot;)' selected='false'/>
+   <accessor type='setValue' value='emailbox(&quot;identifier&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@class=&quot;whsOnd zHQkBf&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//div[1]/div[1]/div[2]/div/c-wiz/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div/div[1]/div/div[1]/input&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&quot;id(&apos;identifierId&apos;)&quot;)' selected='false'/>
+   <accessor type='setValue' value='emailbox(0, _in(div(&quot;Xb9hP&quot;)))' selected='false'/>
+   <accessor type='setValue' value='emailbox(0, _in(div(&quot;Email or phone[4]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='emailbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;VfPpkd-vQzf8d&quot;)' selected='true'/>
+   <accessor type='click' value='span(&quot;Next&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[text()=&quot;Next&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[1]/div[1]/div[2]/div/c-wiz/div/div[2]/div/div[2]/div/div[1]/div/div/button/span&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;identifierNext&apos;)/div[@class=&apos;VfPpkd-dgl2Hf-ppHlrf-sM5MNb&apos;]/button[@class=&apos;VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-lJfZMc VfPpkd-ksKsZd-mWPk3d-OWXEXe-AHe6Kc-XpnDCe VfPpkd-ksKsZd-mWPk3d&apos;]/span[@class=&apos;VfPpkd-vQzf8d&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='span(0, _in(submit(&quot;AjY5Oe DuMIQc LQeN7 TrZEUc VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-dgl2Hf VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-ksKsZd-mWPk3d VfPpkd-ksKsZd-mWPk3d-OWXEXe-AHe6Kc-XpnDCe VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-lJfZMc lw1w4b nCP5yc qIypjc&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(submit(&quot;Next&quot;)))' selected='false'/>
+   <accessor type='click' value='span(6)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"Leadlease@2021"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='password(&quot;whsOnd zHQkBf&quot;)' selected='true'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@name=&quot;Passwd&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='password(&quot;Passwd&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@class=&quot;whsOnd zHQkBf&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//div[1]/div[1]/div[2]/div/c-wiz/div/div[2]/div/div[1]/div/form/span/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&quot;id(&apos;password&apos;)/div[@class=&apos;aCsJod oJeWuf&apos;]/div[@class=&apos;aXBtI Wic03c&apos;]/div[@class=&apos;Xb9hP&apos;]/input[@class=&apos;whsOnd zHQkBf&apos;]&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(0, _in(div(&quot;Xb9hP&quot;)))' selected='false'/>
+   <accessor type='setValue' value='password(0, _in(div(&quot;Enter your password[7]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='password(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;VfPpkd-vQzf8d&quot;)' selected='true'/>
+   <accessor type='click' value='span(&quot;Next&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[text()=&quot;Next&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[1]/div[1]/div[2]/div/c-wiz/div/div[2]/div/div[2]/div/div[1]/div/div/button/span&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;passwordNext&apos;)/div[@class=&apos;VfPpkd-dgl2Hf-ppHlrf-sM5MNb&apos;]/button[@class=&apos;VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-lJfZMc VfPpkd-ksKsZd-mWPk3d-OWXEXe-AHe6Kc-XpnDCe&apos;]/span[@class=&apos;VfPpkd-vQzf8d&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='span(0, _in(submit(&quot;AjY5Oe DuMIQc LQeN7 TrZEUc VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-dgl2Hf VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-ksKsZd-mWPk3d-OWXEXe-AHe6Kc-XpnDCe VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-lJfZMc lw1w4b nCP5yc qIypjc&quot;)))' selected='false'/>
+   <accessor type='click' value='span(0, _in(submit(&quot;Next&quot;)))' selected='false'/>
+   <accessor type='click' value='span(4)' selected='false'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQvxkjxLxMNGQBRHSCqLCmrQV"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='clickXY' value='"12,10"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='image(&quot;ajT&quot;)' selected='true'/>
+   <accessor type='clickXY' value='image(&quot;https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif&quot;)' selected='false'/>
+   <accessor type='clickXY' value='byXPath(&apos;//*[@class=&quot;ajT&quot;]&apos;)' selected='false'/>
+   <accessor type='clickXY' value='byXPath(&apos;//div[7]/div[3]/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div/table/tr/td/div[2]/div[2]/div/div[3]/div[3]/div/div/div/div/div[1]/div[2]/div[3]/div[2]/div/img&apos;)' selected='false'/>
+   <accessor type='clickXY' value='byXPath(&quot;id(&apos;:ap&apos;)/img[@class=&apos;ajT&apos;]&quot;)' selected='false'/>
+   <accessor type='clickXY' value='image(0, _in(div(&quot;:ap&quot;)))' selected='false'/>
+   <accessor type='clickXY' value='image(0, _in(div(&quot;ajR&quot;)))' selected='false'/>
+   <accessor type='clickXY' value='image(13)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;https://u27892235.ct.sendgrid.net/ls/click?upn=WZMv0qQTxWPHWIyZJo3tD9GrRZZLCOXNSW9nThsAm6Ps-2FKUQd5vq2ig7jWNgAG6pEWW0802y2PTFFQ7McskxtET6y09afUJKTwuaSp-2FAtN7ncKPiIuGkN0dF9fPGClFyLcJ5mq4sKhG7ElgwebyvbipH1USQDrOypdkTpkZVgILJEHgg7VHC1Fyvw8kilkAi7ntnTfbdEWBrLwK6IeD8uLDSliRRop22rdyJH59KDOHJIXCDpgCPULt1An-2BJrTc28WQ8qkfNuQNYsCcyKiZoz-2F7qaygUGVm-2B0gAaOo81l2cHebrpSe5dZfyoFYsMrRozHiOs7I6ehOWejkQEXVRWKknUCLlClcO3BNQ-2FyJBTNkmv4lzUEBN-2BV03qu-2BqrBB98GH3vpca0SsXHrDN1svehQNyiGmBGVb6MkEfRFqaVl4KSxr0ggalLyotajyIc83-2Fs-2BsfK2TG3y6xNF-2FFKd4Fysrn0qHzAFnIwWBpAFjrv4akfESk7NKJiJeCXwolEp52z0E-2FaACGybvSSRh-2BS8VT-2FYqEuON3YFx3qvVW0UwR63ZpkF1VvITCloKuGP16dPusVWcqNMJeMW2a7D5wCs45eVLi6-2BbBhPkH4-2BFvdiHBiRCRG-2BtTf2ggtT6jNMk-2FzKzBC5hzPGwB7TG2ZCiAT8cA6l02hRHXlBz6vSd28nRqlA3hAUn-2F6wc1HixxUwA6zSHvwS8IlslA7xLUDJbcfvcHbrL8-2FIHyL-2F5kpwNNkMFXTPsFlVgerSXZmS078FE3DRYmPKHHBjVsQScJk80iOxAcy4FDQ1WSUmwihvk6WNQcdeYzBMKogslediDKWjGejeaOSVHbukyztFzirPw2g23Zx57BdY9wy81ZzFfD503aq05bR3pBdR-2FJJ6sqC1FzFGFM-2FkJc8rOGFOJq82UjPvNP56aXEWrb1srdRPY8JnAC8tsBjlMfHMW6RMJKt79gx-2B1Izm0MKHzXnEwgNk5fdTyPhxy9w0UpnCn28lW-2FnJaaomEBJBR1dExo3kqUw6SI4HVT2-2BEtROwfRG8QjympQZIovEq4WbcJqAXIAfCylGCS9ObZggJ5iaEVfkt6oGveF60DxBd2KGjcYHyCO9cdpN25Tfu4sgoPedGk6r1gsbTZUxODt-2B5JD1C8TjJf-2B9yJI-2BlSEk6W5blhJ4ZvvC3dy9-2FZJciFM0H93mSCd-2FLiKD3Y-2BGntAhhIZ2YhjJLMz6CJfdmmm3-2FozjpDInYmgpwHoMgrhBmwng6h8kbVzIMxMCUR-2FBSLcu7FWeEEG-2FcBvH9iWmjZQKANksVG3dfJSrPGFkvnIutPuir6eZRpwwdpKdrjoC9v8TvZLMzeG7VPIrK5XZAIMcDxJ8SoXovr8AAVZcMTKH8x5DY8d6XTlgULRDohC0gfpQB5ZbEB-2BCvnBMKm1Wu2qYthJWgntB8J-2Bn5oSPwF8u2hbT0h1kvN9I5coajPg-2Fb4KdjmrcsCkT6AgEAeGUTMOw-2F-2FFoh4eb3KoQfHGQ4ho1doO4lOrxY-2Bzf-2FkKU4Pjm9Ilm7B8aWsym3AdIgqcAHHLcpdh2wqKAT4S8cDGJn8TmnyPs5QEf4ZHqVQy0UGsn-2F46IRmol3yR4n0HnvY8bmZK2J_7_yAGYyO5DQCaQVgH-2BvZIKfZXt46jTtzmdT7AfTjkmueFzUHtOEJtI3W7DTO4zL7ut5zTJ8Zg5VuSlBAwhqeqhXNmz9tXMXQ-2BEPmsiyOmcHLR3p7hrC2h3lTC0pf0UEg-2FGnCa6JXbHT8pSbvedqVCccCt3MyVPOZ-2B7zpXJRGXeqnUwl9NnuTyNtTQvDosTvq5Tz1tbPDhV34Ypt8IlKG44JiL8i8K5-2FKy2iA3yXlPEEC4-3D&quot;)' selected='true'/>
+   <accessor type='click' value='link(&quot;Confirm Account&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[7]/div[3]/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div/table/tr/td/div[2]/div[2]/div/div[3]/div[3]/div/div/div/div/div[1]/div[2]/div[3]/div[3]/div[1]/div[1]/div[2]/div/center/div/table/tbody/tr[2]/td/div/div[3]/table/tbody/tr/td/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/a&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;:a9&apos;)/div[@class=&apos;HOEnZb adM&apos;]/div[@class=&apos;im&apos;]/div[1]/center[1]/div[@class=&apos;m_8661095991229265287email-container&apos;]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[1]/div[@class=&apos;m_8661095991229265287outlook-group-fix&apos;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//tbody//tr[1]//td[1]//a[text()=&quot;Confirm Account&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='link(0, _in(cell(&quot;Confirm Account[3]&quot;)))' selected='false'/>
+   <accessor type='click' value='link(15)' selected='false'/>
+</dialect>
+</step>
+<step action='selectWindow' value='"Loading..."' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='selectWindow' value='' selected='true'/>
+</dialect>
+</step>
+<step action='selectWindow' value='"Page Title"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='selectWindow' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setValue' value='"Passwor1!"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='password(&quot;Enter new password&quot;)' selected='true'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;newPassword&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='password(&quot;textInput&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(&quot;newPassword&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//div[2]/div/div/div/div/div/form/div[5]/ul/li[2]/div/input&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&quot;id(&apos;newPassword&apos;)&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(0, _in(div(&quot;attrEntry[1]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='password(0, _in(div(&quot;New PasswordWhat is this?&quot;)))' selected='false'/>
+   <accessor type='setValue' value='password(0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"Password1!"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='password(&quot;Confirm new password&quot;)' selected='true'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;reenterPassword&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='password(&quot;textInput[1]&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(&quot;reenterPassword&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//div[2]/div/div/div/div/div/form/div[5]/ul/li[3]/div/input&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&quot;id(&apos;reenterPassword&apos;)&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(0, _in(div(&quot;attrEntry[2]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='password(0, _in(div(&quot;Confirm New PasswordWhat is this?&quot;)))' selected='false'/>
+   <accessor type='setValue' value='password(1)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='byXPath(&apos;//*[@id=&quot;continue&quot;]&apos;)' selected='true'/>
+   <accessor type='click' value='submit(&quot;continue&quot;)' selected='false'/>
+   <accessor type='click' value='submit(&quot;Create &amp; Sign In&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[text()=&quot;Create &amp; Sign In&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[2]/div/div/div/div/div/form/div[6]/button[1]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;continue&apos;)&quot;)' selected='false'/>
+   <accessor type='click' value='submit(0, _in(div(&quot;buttons[1]&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(0, _in(div(&quot;Create &amp; Sign InCancel&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(0)' selected='false'/>
+</dialect>
+</step>
+<step action='selectWindow' value='"MRI Engage Demo - RO Process"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='selectWindow' value='' selected='true'/>
+</dialect>
+</step>
+<step action='selectWindow' value='"MRI Engage Demo - Verify &amp; Agree"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='selectWindow' value='' selected='true'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Verify Your ID"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='heading1(&quot;fw-bold mb-3&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='heading1(&quot;fw-bold mb-3&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='heading1(&quot;Verify Your ID&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&apos;//*[@class=&quot;mb-3 fw-bold&quot;]&apos;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&apos;//div[3]/div/main/div/div/div[6]/div/div[1]/div[1]/div/div/div[1]/h1&apos;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&quot;id(&apos;pills-5429&apos;)/div[@class=&apos;bg-white journey-contain rounded-3 p-1&apos;]/div[@class=&apos;d-flex bd-highlight&apos;]/div[@class=&apos;flex-grow-1&apos;]/h1[@class=&apos;mb-3 fw-bold&apos;]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='heading1(0, _in(div(&quot;flex-grow-1&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='heading1(0)' selected='false'/>
+</dialect>
+</step>
+<step action='selectWindow' value='"Inbox (3) - leadlease.prospect@gmail.com - Gmail"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='selectWindow' value='' selected='true'/>
+</dialect>
+</step>
+<step action='clickXY' value='"4,9"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='div(&quot;asa[2]&quot;)' selected='true'/>
+   <accessor type='clickXY' value='byXPath(&apos;//div[7]/div[3]/div/div[2]/div[2]/div/div/div/div/div[1]/div/div[1]/div[1]/div/div/div[2]/div[3]/div&apos;)' selected='false'/>
+   <accessor type='clickXY' value='byXPath(&quot;id(&apos;:4&apos;)/div[@class=&apos;D E G-atb&apos;]/div[@class=&apos;nH aqK&apos;]/div[@class=&apos;Cq aqL&apos;]/div[@class=&apos;bzn&apos;]/div[@class=&apos;G-tF&apos;]/div[@class=&apos;G-Ni G-aE J-J5-Ji&apos;]/div[@class=&apos;T-I J-J5-Ji nX T-I-ax7 T-I-Js-Gs mA T-I-JW T-I-Je T-I-JO T-I-Zf-aw2&apos;]/div[@class=&apos;asa&apos;]&quot;)' selected='false'/>
+   <accessor type='clickXY' value='div(0, _in(div(&quot;J-J5-Ji T-I T-I-JO T-I-JW T-I-Je T-I-Js-Gs T-I-Zf-aw2 T-I-ax7 mA nX&quot;)))' selected='false'/>
+   <accessor type='clickXY' value='div(136)' selected='false'/>
+</dialect>
+</step>
+</testcase>
