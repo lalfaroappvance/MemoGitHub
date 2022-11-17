@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='SyntheticDPL' locale='null'/>
+<fallback useFallback='true'/>
+<step action='store' value='15' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='x' selected='true'/>
+</dialect>
+</step>
+<step action='log' value='&quot;concat &quot; + x + &quot; end &quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='log' value='&quot;concat &quot; + x + &quot; end 5&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='log' value='&quot;concat &quot; + x + &quot; end 10&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='log' value='"jkjlkjlkj&quot;kjlkjklklk"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='log' value='"sakd;alsd&quot;asldasd"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://demosite.appvance.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='&quot;$&quot; + parseInt(x) + &quot;.99&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='span(&quot;lead price selling&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='span(&quot;lead price selling&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(&quot;$15.99[1]&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='span(0, _in(span(&quot;$15.99&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='span(3)' selected='false'/>
+</dialect>
+</step>
+</testcase>
