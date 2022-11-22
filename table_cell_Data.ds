@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL' locale='en_US'/>
+<fallback useFallback='false'/>
+<step action='navigateTo' value='"https://sahitest.com/demo/tableTest.htm"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='cell(&quot;EMPLOYEE_ID&quot;)' selected='true'/>
+   <accessor type='assertExists' value='cell(93)' selected='false'/>
+</dialect>
+</step>
+<step action='assertExists' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertExists' value='cell(&quot;steven.king@gmail.com&quot;)' selected='true'/>
+   <accessor type='assertExists' value='cell(103)' selected='false'/>
+</dialect>
+</step>
+<step action='log' value='getText(cell(0,_leftOf(cell(&quot;steven.king@gmail.com&quot;))))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='log' value='getText(cell(0,_rightOf(cell(&quot;steven.king@gmail.com&quot;))))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='log' value='getText(cell(0,_below(cell(&quot;JOB_ID&quot;),_rightOf(cell(&quot;steven.king@gmail.com&quot;)))))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='log' value='getText(cell(0,_below(cell(&quot;EMPLOYEE_ID&quot;),_rightOf(cell(&quot;steven.king@gmail.com&quot;)))))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='store' value='_eval(&quot;ds$(&apos;#t4 &gt; tbody &gt; tr&apos;).length&quot;)' type='web' desc='jquery for row length in table #t4' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='rowLength' selected='true'/>
+</dialect>
+</step>
+<step action='store' value='getLength(&apos;#t4 &gt; tbody &gt; tr&apos;)' type='web' desc='GetLength API takes jquery notation as a parameter' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='rowLength1' selected='true'/>
+</dialect>
+</step>
+<step action='log' value='rowLength1' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='log' value='rowLength' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='store' value='1' type='web' desc='avoiding header row' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='ctnr' selected='true'/>
+</dialect>
+</step>
+<step action='while' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='while' value='ctnr &lt; rowLength' selected='true'/>
+</dialect>
+</step>
+<step action='log' value='&quot;Row : &quot; + ctnr' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='store' value='_eval(&quot;ds$(ds$(&apos;#t4 &gt; tbody &gt; tr:nth-child( &quot; + ctnr + &quot;) &gt; td&apos;)).length&quot;)' type='web' desc='column length for each row in table t4 using jquery selector' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='columnLength' selected='true'/>
+</dialect>
+</step>
+<step action='log' value='columnLength' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='store' value='getLength(&quot;#t4 &gt; tbody &gt; tr:nth-child( &quot; + ctnr + &quot;) &gt; td&quot;)' type='web' desc='using getLength ' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='columnLength1' selected='true'/>
+</dialect>
+</step>
+<step action='log' value='columnLength1' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='store' value='0' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='col' selected='true'/>
+</dialect>
+</step>
+<step action='while' value='' type='web' desc='you can loop till column length.I have used one less.' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='while' value='col &lt; columnLength' selected='true'/>
+   <accessor type='while' value='col &lt; columnLength-1' selected='false'/>
+</dialect>
+</step>
+<step action='log' value='getText(cell(col,_in(row(ctnr,_in(table(&quot;t4&quot;))))))' type='web' desc='since no unique way of identifying cell,have gone with row count and with table reference.You can also go with class with index for identifying row no and then use cell counter to extract the text.Getting all column data.' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='log' value='' selected='true'/>
+</dialect>
+</step>
+<step action='store' value='col + 1' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='col' selected='true'/>
+</dialect>
+</step>
+<step action='endWhile' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='endWhile' value='' selected='true'/>
+</dialect>
+</step>
+<step action='store' value='ctnr + 1' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='ctnr' selected='true'/>
+</dialect>
+</step>
+<step action='endWhile' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='endWhile' value='' selected='true'/>
+</dialect>
+</step>
+</testcase>
