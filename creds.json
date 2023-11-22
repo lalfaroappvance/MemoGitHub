@@ -1,0 +1,11 @@
+{
+    "controller": {
+        "instances": ["localhost"],
+		"url": "http://localhost:8080/",
+	"ec2Creds": "ec2.creds",
+	"timeOut": 60,
+        "username": "appvance",
+        "password": "appvance",
+        
+    }
+}
